@@ -14,8 +14,8 @@ import pandas as pd
 '''
 
 #テスト期間
-TEST_START = '2020/08/01 09:00:00+0900'
-TEST_END   = '2020/08/31 09:00:00+0900'
+TEST_START = '2020/08/01 09:00:00'
+TEST_END   = '2020/08/31 09:00:00'
 
 
 #-------------------------------------------------------------------------------
@@ -24,8 +24,8 @@ TEST_END   = '2020/08/31 09:00:00+0900'
 import DataUtility as du
 
 # テスト期間の日付文字列をUnix Timeに変換
-start_ut = int(du.Time(TEST_START).unixtime()) # テスト開始時刻 (UnixTime)
-end_ut   = int(du.Time(TEST_END).unixtime())   # テスト終了時刻 (UnixTime)
+start_ut = int(du.Time(TEST_START, 'JST').unixtime()) # テスト開始時刻 (UnixTime)
+end_ut   = int(du.Time(TEST_END, 'JST').unixtime())   # テスト終了時刻 (UnixTime)
 
 # DataUtilityを使用してBitMEX OHLCVを取得
 df_ohlcv = du.Tool.get_ohlcv_from_bitmex(
