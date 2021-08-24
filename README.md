@@ -43,7 +43,7 @@ pip install -U -r requirements.txt
 <br>
 【構築するディレクトリ/ファイル構造】
 ```
-./check_dist.py (ライセンス有効期限確認)
+./trial_check.py (ライセンス有効期限確認)
 ./backtest_sample.py (バックテストサンプル スクリプト)
 ./dist (解凍するとできるディレクトリ)
    ∟__init__.py
@@ -56,10 +56,10 @@ pip install -U -r requirements.txt
 <br>
 
 ### 1-4. 評価版ライセンス 有効期限チェック (任意)
-<b>check_dist.py</b>を実行することでライセンスの有効日数を確認できます。
+<b>trial_check.py</b>を実行することでライセンスの有効日数を確認できます。
 ```
 cd BacktestTrial
-python check_dist.py
+python trial_check.py
 -> This license for lic_for_wsot will be expired in 23 days
 ```
 <br>
@@ -83,6 +83,7 @@ cd BacktestTrial
 python backtest_sample.py
 ```
 
+<b>バックテスト 実行結果</b>
 ```
 [Result]
   [Time    ] 2020/08/01 09:00:00 - 2020/08/31 08:00:00
@@ -115,6 +116,7 @@ python backtest_sample.py
 ```
 <br>
 
+<b>結果チャート</b>
 ![結果チャート](https://user-images.githubusercontent.com/37642101/130594782-ee7bfc24-7f5f-433c-8208-17c5a4f99e46.png)
 <br>
 <br>
