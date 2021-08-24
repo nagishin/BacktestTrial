@@ -1,0 +1,14 @@
+numpy
+pandas
+datetime
+pytz
+sortedcontainers
+git+https://github.com/nagishin/DataUtility.git
+requests
+simplejson
+matplotlib
+mplfinance
+plotly
+webcolors
+beautifulsoup4
+lxml
