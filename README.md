@@ -17,6 +17,9 @@ git clone https://github.com/nagishin/BacktestTrial.git
 <br>
 
 ### 1-2. 必要パッケージのインストール
+ツールを使用するために必要なパッケージをインストールします。<br>
+また、テストデータの取得や加工に便利な以下のツールもインストールします。<br>
+* [テストデータ取得＆加工ツール【DataUtility】](https://gist.github.com/nagishin/1677ffa401476e9e98191a04012ac189)
 ```
 cd BacktestTrial
 pip install -U -r requirements.txt
@@ -122,8 +125,31 @@ python backtest_sample.py
 <br>
 <br>
 
-## 2. Google Colabで使用する<br>
+## 2. Google Colabで使用する
 以下のnotebookより、Google Colabリンクを開いてください。<br>
 
 [< GitHub Gist >【評価版】BacktestAssist & ChartCreator](https://gist.github.com/nagishin/3f6dade186a11719e33da19632b9ef9c)
+<br>
+<br>
+<br>
+
+## 3. 公開ロジックのバックテスト
+* [平均様 バックテスト](https://gist.github.com/nagishin/06edb1244ca10d44041ad2c2c8d9a8ab)<br>
+【参考】[れたすさん著 【BTC自動取引bot】HEIKIN_ORACLE_ver2.0](https://note.com/letasun/n/n9366d3055824)<br>
+<br>
+
+* [時刻アノマリー バックテスト](https://gist.github.com/nagishin/e79ec81cdef8a9b1dafed7eb65383fc1)<br>
+【参考】[Hohetoさん著 ビットコイン価格における時刻アノマリーの存在](https://note.com/hht/n/nc0caf98477db)<br>
+<br>
+
+* [ドテンくん バックテスト](https://gist.github.com/nagishin/5804a8c07a21e7f4914e0f2389be513c)<br>
+【参考】[ビットコイン自動売買bot「ドテンくん」の特徴と評判](https://jitekineko.com/investment-trade-bitcoin-dotenkun/)<br>
+<br>
+
+* [バブル相場用の回転ボット バックテスト](https://gist.github.com/nagishin/5a96bb2480d37582c33263f00c6f0717)<br>
+【参考】[Hohetoさん著 バブル相場用の回転ボットのコンセプトとQuantZoneロジック](https://note.com/hht/n/n63022edc4610)<br>
+<br>
+
+* [養分ロングbot バックテスト](https://gist.github.com/nagishin/9f5fda6485d5d2f3c1d134e7028c4d0e)<br>
+【参考】[ともいさん著 養分ロングbot【bybit用】](https://note.com/tomoiyuma/n/n35018ec09b4f)<br>
 <br>
